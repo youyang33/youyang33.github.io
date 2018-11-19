@@ -1,0 +1,731 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    line-height: 1.6;
+
+}
+
+
+#nav{
+  background-color:white;
+  padding-top: 5px;
+
+/*
+  -webkit-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow:    6px 6px 10px rgba(0, 0, 0, 0.05);
+  box-shadow:         6px 6px 10px rgba(0, 0, 0, 0.05);
+  z-index:999;*/
+}
+
+#interaction{
+  background-color:white;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14pt;
+    color:#313139 !important;
+    font-weight: 300;
+    position: relative;
+    text-decoration: none;
+}
+
+#self-intro{
+  visibility: visible;
+  float:right;
+  text-align: right;
+  font-family: 'Heebo', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color:grey;
+  margin-bottom: 0;
+}
+
+#toStick:hover{
+    color: #313139;
+    background-color: white;
+}
+
+#interaction:hover .self-intro{
+      visibility: visible;
+      transition: all 0.3s ease-in-out 0s;
+}
+
+
+.nav.navbar-nav {
+    padding-top: 0px;
+    float:right;
+    display: inline;
+    text-decoration: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+
+.container{
+    margin-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.nav.navbar-nav li a {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12pt;
+    color:#313139;
+    font-weight: 300;
+    position: relative;
+    text-decoration: none;
+
+}
+.pjpagee{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20pt;
+    color:#313139;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+}
+
+.titleofsteps{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12pt;
+    color:#B7BFC9;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+
+}
+.pjpage{
+    font-family:'Heebo', sans-serif;
+    font-size: 18pt;
+    color:#313139;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+}
+
+.pjcont{
+    font-family: 'Heebo', sans-serif;
+    font-size: 14pt;
+    color:#313139;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+}
+
+.pjcont1{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12pt;
+    color:#313139;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+}
+
+.pjcont1quote{
+    font-family: 'Heebo', sans-serif;
+    font-size: 14pt;
+    color:#313139;
+    font-weight: 500;
+    position: relative;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+}
+
+.pjcont2{
+    font-family: 'Heebo', sans-serif;
+    font-size: 10pt;
+    color:#313139;
+    font-weight: 300;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.pjcontt1{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12pt;
+    color:#313139;
+    font-weight: 300;
+    position: relative;
+
+}
+
+
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.pjpagesub{
+    font-size: 14pt;
+    font-weight: 500;
+    color:#313139;
+    line-height: 1.6;
+}
+
+.nav.navbar-nav li a:hover{
+    font-weight: 500;
+    background-color: white;
+}
+
+.nav.navbar-nav li a:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #313139;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav.navbar-nav li a:hover:before{
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.headerimage1{
+  height: 200px;
+}
+
+
+
+.alink{
+  text-decoration-style: dotted;
+}
+
+.lt{
+    text-align: left;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color:grey;
+
+}
+
+.lt-intro{
+  visibility: visible;
+  text-align: left;
+  font-family: 'Heebo', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color:grey;
+
+}
+
+
+#whitet{
+    background-color: white;
+    margin: auto;
+    padding: 0;
+}
+
+.bg-wt{
+  background-color: white;
+}
+
+.highlighted{
+    color: black;
+    font-weight: 300;
+}
+
+#sticky{
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+#test1{
+  zoom:0.8;
+}
+
+/*.dotstyle ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: default;
+}
+
+.dotstyle li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 0 16px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.dotstyle li a {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.3);
+  text-indent: -999em;
+  cursor: pointer; *//* make the text accessible to screen readers */
+/*  position: absolute;
+}
+
+.dotstyle-fillup li a {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0);
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,1);
+  transition: background 0.3s;
+}
+
+.dotstyle-fillup li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.2);
+  box-shadow: 0 0 1px #fff;
+  transition: height 0.3s;
+}
+
+.dotstyle-fillup li a:hover,
+.dotstyle-fillup li a:focus {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.dotstyle-fillup li.current a::after {
+  height: 100%;
+}
+*/
+/*#typebutton{
+    padding-top: 100px;
+}
+
+button{
+  border-width:0px;
+  outline: none;
+  margin-bottom: 80px;
+  background-color: white;
+  font-size: 12pt;
+}
+
+button:active {
+
+    border-radius: 2px;
+    color: black;
+    margin-bottom: 40px;
+    text-decoration: underline ;
+
+}
+
+button.target{
+
+    border-radius: 2px;
+    color: black;
+    margin-bottom: 40px;
+    text-decoration: underline ;
+
+
+}*/
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: white;
+}
+
+.progress-bar {
+  height: 5px;
+  background:#313139;
+  border-color: none;
+  width: 0%;
+}
+
+
+.headerfont{
+	margin-bottom: 20px;
+	font-weight: 500;
+    font-size: 32pt;
+    margin-top: 50px;
+}
+
+
+
+.coverimage{
+    width: 100%;
+    height: auto;
+/*    border-radius: 8px;*/
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+
+}
+
+.imgbox {
+  display: block; 
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.imgbox img {
+/*  -webkit-box-shadow: 1px 4px 9px -1px rgba(0,0,0,0.65);
+  -moz-box-shadow: 1px 4px 9px -1px rgba(0,0,0,0.65);
+  box-shadow: 1px 4px 9px -1px rgba(0,0,0,0.65);*/
+}
+
+
+.magnify {width: 100%; margin: auto; position: relative; cursor: none;}
+
+/* Let's create the magnifying glass */
+.large {
+  display: none;
+  width: 200px; 
+  height: 200px;
+  position: absolute;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  
+  /* box shadows to achieve the glass effect */
+  -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25)
+}
+
+/* To solve overlap bug at the edges during magnification */
+.thumb { display: block; }
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.row{
+   margin: 80px auto;
+}
+
+.cbottom{
+   margin: 10px auto;
+   padding: 10px 10px;
+    background: rgba(255, 255, 255, 1);
+    color: #41ab6b;
+    border-radius: 5px;
+
+    -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+
+
+}
+
+.cbottom:hover{
+  margin:80px auto;
+  padding: 50px 20px;
+  color: #41ab6b;
+  border-radius: 5px;
+
+
+
+  border-color: #41ab6b;
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .05), 0 6px 20px 0 rgba(0, 0, 0, .05);
+  -moz-box-shadow:    0 8px 17px 0 rgba(0, 0, 0, .05), 0 6px 20px 0 rgba(0, 0, 0, .05);
+  box-shadow:         0 8px 17px 0 rgba(0, 0, 0, .05), 0 6px 20px 0 rgba(0, 0, 0, .05);
+  z-index:999;
+  
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+
+}
+
+.cbottom:hover .intro{
+text-decoration: underline;
+}
+
+.cbottom::before{
+    border-bottom: 3px solid #FFF;
+  border-left: 3px solid #FFF;
+  -webkit-transform-origin: 0 100%;
+}
+
+.cbottom::after{
+    border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+  -webkit-transform-origin: 100% 0%;
+}
+
+.lt-intro{
+  position: relative;
+}
+
+.intro{
+  font-weight: 400;
+  font-size: 16pt;
+}
+#line{
+    height:1px; /* you might need some positioning for this to work, see other questions about 100% height */
+    width:90%;
+    border:0.1px solid #CACACA;
+}
+
+.pjtext{
+    font-size: 12pt;
+    color:grey;
+    font-weight: 500;
+}
+
+.pjcont1sub{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12pt;
+    color:black;
+    font-weight: 300;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+}
+
+.boldintext{
+    font-weight: 400;
+}
+.dotted{
+    background-color: rgb(234,242,251,0.9);
+
+}
+
+.footer {
+    background-color: black;
+    padding-left: 100px;
+    text-align: left;
+    color: white;
+    height: 150px;
+    padding-top: 50px;
+    font-size: 12px;
+    padding-right: 50px;
+}
+
+.footertext{
+    float:left;
+    font-family: 'Heebo', sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+
+}
+
+.footericon{
+    width:2.5%; /*control size of icon*/
+    display: inline-block;
+    float: right;
+
+   
+}
+
+.footericons ul{
+    list-style: none;
+    margin: 0;
+
+
+
+}
+
+.footericons li{
+    display: inline;
+    vertical-align: middle; 
+
+
+
+    /*margin-left: 1px;  /* this method also works, which means the left margin 
+                         of each icon(every 'li') to its prior icon*/
+
+    /*float: left;*/    /*you can't set float as left or right, otherwise each icon will be
+                        be set left/right side, and the whole arragement will be vertical
+                        no matter how you change 'zoom or width', that's the reason you 
+                        failed debugging yesterday*/
+} 
+
+.justcontainer {
+    position:relative;
+}
+
+.justtag{
+      display:none;  
+
+}
+
+.justtag2{
+      display:none;  
+
+}
+.justtag3{
+      display:none;  
+
+}
+.justtag4{
+      display:none;  
+}
+
+
+.justcontainer:hover .justtag{
+    color:white;
+    float: left;
+    position: absolute;
+    font-size: 10pt;
+    left: 0px;
+    top: 0px;
+    border-radius: 15px;
+    height: 50px;
+    width:600px;
+    background:#bababa;
+    opacity:0.50;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding: 30px;
+}
+
+
+
+
+/*.just {
+    position:relative;
+    display:inline-block;
+}
+.justification {
+    display:none;
+}
+.just:hover .justification {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+    /* All other styling - see example */
+}
+*/
+
+
+@media (max-width: 768px) {
+	  
+	#self-intro{
+		text-align: left;
+		padding-left: 30px;
+		padding-top: 50px;
+
+	}
+
+
+    .coverimage{
+        height: auto;
+    }
+
+	.typebutton{
+	float:left;
+	margin: auto;
+	padding-left: 30px;
+	padding-top: 50px;
+
+}
+
+	.nav.navbar-nav {
+    float:left;
+    margin:auto;
+    display: inline;
+
+	}
+
+    .footericon{
+    width:10%; /*control size of icon*/
+    display: inline;
+    margin-left: 10px;
+    float: left;}
+    
+
+@media (max-width: 425px) {
+
+.nav.navbar-nav {
+    float:left;
+    display: inline;
+    padding-left: 30px;
+
+}
+      
+#self-intro{
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
+
+.coverimage{
+    width: 60%;
+    height: auto;
+}
+
+.typebutton{
+    float:left;
+    margin: auto;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 8pt;
+}
+
+.nav.navbar-nav li a {
+    font-size: 10pt;
+    color:grey;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.footer{
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.footericon{
+    width:10%; /*control size of icon*/
+    display: inline;
+    margin-left: 0px;
+    float: left;
+   
+}
