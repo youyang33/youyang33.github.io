@@ -12,7 +12,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: Heebo;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -27,7 +27,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Roboto", arial, sans-serif;
+  font-family: Heebo;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -132,7 +132,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: Heebo;
   font-size: 1em; }
 
 pre {
@@ -181,7 +181,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: Heebo;
   font-size: inherit;
   line-height: inherit; }
 
