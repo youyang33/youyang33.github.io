@@ -16,6 +16,14 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .toggle-menu { z-index: 9999; position: relative; top: -13px; display: none; }
 
+.spinner-wrapper {
+position: absolute;
+top: 48%;
+left: 48%;
+background-color: #ff6347;
+z-index: 999999;
+}
+
 @media (max-width: 767.98px) { .templateux-navbar .toggle-menu { display: block; } }
 
 .templateux-navbar .toggle-menu:active, .templateux-navbar .toggle-menu:focus { outline: none; }

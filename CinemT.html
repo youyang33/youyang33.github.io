@@ -16,8 +16,11 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  
-  <div class="js-animsition animsition" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out" style="font-family: 'Heebo', sans-serif;">
+  <div class="spinner-wrapper">
+		<div class="spinner"></div>
+	</div>
+
+  <div class="" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out" style="font-family: 'Heebo', sans-serif;">
 
     <header class="templateux-navbar"  data-aos="fade-down">
       <div class="container-fluid">
@@ -51,7 +54,7 @@
 
       <div class="container">
         <div class="row align-items-center justify-content-center intro">
-          <div class="col-md-10" data-aos="">
+          <div class="col-md-10" data-aos="fade-up">
             <h1>CinemAll App</h1>
             
 <!--             <a href="#test" class="go-down js-smoothscroll"></a> -->
@@ -67,7 +70,7 @@
     
     
     <section class="templateux-portfolio-overlap mb-5" id="next">
-      <div class="container" data-aos=""><!-- fade-up -->
+      <div class="container" data-aos="fade-up"><!-- fade-up -->
         <div class="row justify-content-center">
           
           <div class="col-md-10">
@@ -682,6 +685,18 @@
   
   <script src="js/scripts-all.js"></script>
   <script src="js/main.js"></script>
-  
+    <script>
+$(document).ready(function() {
+//Preloader
+$(window).on("load", function() {
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+});
+</script>
   </body>
 </html>
