@@ -24,17 +24,18 @@
   100% {background-color: green;}
 }
 
-body { font-size: 16px; line-height: 1.8; color: #808080; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+body { font-size: 16px; line-height: 1.6; color: #4A4A4A; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-::-moz-selection { background: rgb(0,118,225,0.1); }
+::-moz-selection { background: #06008B; color:white; }
 
-::selection { background: rgb(0,118,225,0.1); }
+::selection { background: #06008B;color:white; }
 
 h1, h2, h3, h4, h5 { color: #000; }
 
 a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
 a:hover, a:active, a:focus { text-decoration: none; outline: none; }
+
 
 .templateux-navbar { position: absolute; top: 0; left: 0; width: 100%; padding: 35px 0; z-index: 99999; }
 
@@ -59,7 +60,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .templateux-menu ul li a { margin-right: 20px; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: #000; position: relative; padding-bottom: 5px; display: block; }
 
-.templateux-navbar .templateux-menu ul li a:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #dc3545; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
+.templateux-navbar .templateux-menu ul li a:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #06008B; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
 
 .templateux-navbar .templateux-menu ul li a:hover:before { width: 100%; }
 
@@ -156,7 +157,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project figure, .post figure { margin: 0; position: relative; }
 
-.project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover {  border-radius: 5px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(220, 53, 69, 0.9); visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease;}
+.project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover {  border-radius: 5px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #06008B; visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease;}
 
 .project .project-hover .project-hover-inner, .project .project-hover .post-hover-inner, .project .post-hover .project-hover-inner, .project .post-hover .post-hover-inner, .post .project-hover .project-hover-inner, .post .project-hover .post-hover-inner, .post .post-hover .project-hover-inner, .post .post-hover .post-hover-inner { position: absolute; z-index: 99; left: 50%; top: 50%; visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); transition: .3s all ease; text-align: center;}
 
@@ -172,7 +173,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project:hover .project-hover .project-hover-inner span, .project:hover .project-hover .post-hover-inner span, .project:hover .post-hover .project-hover-inner span, .project:hover .post-hover .post-hover-inner span, .project:focus .project-hover .project-hover-inner span, .project:focus .project-hover .post-hover-inner span, .project:focus .post-hover .project-hover-inner span, .project:focus .post-hover .post-hover-inner span, .post:hover .project-hover .project-hover-inner span, .post:hover .project-hover .post-hover-inner span, .post:hover .post-hover .project-hover-inner span, .post:hover .post-hover .post-hover-inner span, .post:focus .project-hover .project-hover-inner span, .post:focus .project-hover .post-hover-inner span, .post:focus .post-hover .project-hover-inner span, .post:focus .post-hover .post-hover-inner span { bottom: 0; visibility: visible; opacity: 1; }
 
-.templateux-footer { padding: 7em 0; border-top: 1px solid #F4F4F4; }
+.templateux-footer { padding: 7em 0; border-top: 0px solid #F4F4F4; }
 
 .templateux-footer .container-fluid { max-width: 100%; }
 
