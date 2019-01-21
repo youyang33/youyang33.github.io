@@ -25,15 +25,15 @@ function fakeAjaxMasonry(button) {
     var filterActive = $('.filter__link_active').data('filter');
     if(!button.hasClass('no-works') && (filterActive === '*' || filterActive === '.products')) {
         // var worksFake = ['9', '4', '10', '11', '12', '13'];
-        var worksFake = ['9', '4'];
+        var worksFake = ['9'];
         var items = '<div>';
-        var worksTitle = ['WeKan','Drake'];
-        var worksType = ['Design Challenge','Mascot Design'];
+        var worksTitle = ['Drake'];
+        var worksType = ['Mascot Design'];
         
         for (var i = 0; i < worksFake.length; i++) {
             var wt=worksTitle[i]
             var wtt=worksType[i]
-            items += '<div class="portfolio__item products"><div class="portfolio__item-content"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-mobile-image-link"><img src="img/portfolio-1-'+ worksFake[i] +'.png" class="portfolio__item-image" alt="custom alt 3"></a><div class="portfolio__item-image_hover" style="background-image: url(img/portfolio-1-'+ worksFake[i] +'-hover.jpg);"></div><div class="portfolio__item-overlay"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-image-link"></a><div class="portfolio__item-title"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-title-link">'+wt+'</a></div><div class="portfolio__item-cats"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-cat">'+ wtt +'</a><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-cat"></a></div></div></div></div>';
+            items += '<div class="portfolio__item products"><div class="portfolio__item-content"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-mobile-image-link"><img src="img/portfolio-1-'+ worksFake[i] +'.png" class="portfolio__item-image" alt="custom alt 3"></a><div class="portfolio__item-image_hover" style="background-image: url(img/portfolio-1-'+ worksFake[i] +'-hover.png);"></div><div class="portfolio__item-overlay"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-image-link"></a><div class="portfolio__item-title"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-title-link">'+wt+'</a></div><div class="portfolio__item-cats"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-cat">'+ wtt +'</a><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-cat"></a></div></div></div></div>';
         }
 
         // for (var i = 0; i < worksFake.length; i++) {
