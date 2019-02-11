@@ -9,7 +9,7 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
      */
 
     chartObj.data = dataset;
-    chartObj.margin = {top: 15, right: 100, bottom: 30, left: 130};
+    chartObj.margin = {top: 15, right: 100, bottom: 30, left: 120};
     chartObj.width = 650 - chartObj.margin.left - chartObj.margin.right;
     chartObj.height = 480 - chartObj.margin.top - chartObj.margin.bottom;
 
