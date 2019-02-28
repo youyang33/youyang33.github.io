@@ -29,6 +29,9 @@
 /*
 * Fonts
 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*
 @font-face {
   font-family: "DoWorkSansRegular";
   font-weight: 400;
@@ -66,7 +69,7 @@
   src: url("../fonts/Cabin/Cabin-Italic.ttf") format("truetype"); }
 
 
-
+*/
 
 /*
 * Vars
@@ -112,10 +115,11 @@
 body {
   position: relative;
   color: #101217;
-  font-family: "DoWorkSansRegular", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 320px; }
+  min-width: 320px; 
+  line-height: 2;}
 
 .btn,
 button {
@@ -198,8 +202,8 @@ h6 {
   margin-bottom: 21px; }
 
 p {
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 28px;
   margin-bottom: 20px;
   color: #101217; }
 
@@ -690,7 +694,7 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
 .portfolio__item-title-link {
   color: #fff;
   font-size: 28px;
-  font-family: "DoCabinBoldItalic", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   z-index: 4;
   position: relative; }
 
@@ -837,13 +841,14 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
 
 .work-footer__title {
   display: block;
-  font-family: "DoCabinBold", sans-serif;
-  font-size: 39px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   margin-bottom: 49px;
   color: #101217; }
 
 .work-footer__image {
-  width: 90px; }
+  width: 40% }
 
 .image__icon-wrapper {
   position: absolute;
@@ -886,11 +891,11 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
   color: inherit; }
 
 .work-slider {
-  margin-top: 30px; }
+  margin-top: 10px; }
 
 .swiper-wrapper {
   height: auto;
-  padding-bottom: 42px; }
+  padding-bottom: 32px; }
 
 .swiper-slide {
   text-align: center;
@@ -905,7 +910,7 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
   align-items: center; }
 
 .swiper-pagination-bullet {
-  width: 50px;
+  width: 32px;
   height: 2px;
   background-color: #e1e3e6;
   opacity: 1;
@@ -945,9 +950,9 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
 
 .swiper-button-prev,
 .swiper-button-next {
-  width: 30px;
-  height: 60px;
-  margin-top: -70px;
+  width: 20px;
+  height: 50px;
+  margin-top: -60px;
   background-color: var(--main-color);
   background-size: 5px;
   background-image: url(../img/swiper-arrow.png); }
