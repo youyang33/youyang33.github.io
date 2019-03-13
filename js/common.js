@@ -27,8 +27,8 @@ function fakeAjaxMasonry(button) {
         // var worksFake = ['9', '4', '10', '11', '12', '13'];
         var worksFake = ['9'];
         var items = '<div>';
-        var worksTitle = ['Drake'];
-        var worksType = ['Mascot Design'];
+        var worksTitle = ['Pong'];
+        var worksType = ['AR Game'];
         
         for (var i = 0; i < worksFake.length; i++) {
             var wt= worksTitle[i]
