@@ -22,24 +22,33 @@ function doBackToTop() {
 }
 
 function fakeAjaxMasonry(button) {
-    var filterActive = $('.filter__link_active').data('filter');
+
+        var filterActive = $('.filter__link_active').data('filter');
     if(!button.hasClass('no-works') && (filterActive === '*' || filterActive === '.products')) {
         // var worksFake = ['9', '4', '10', '11', '12', '13'];
-        var worksFake = ['9'];
+           // var worksFake = ['4', '9', '10', '11','13'];
+        var worksFake = ['4'];
         var items = '<div>';
-        var worksTitle = ['Pong'];
-        var worksType = ['AR Game'];
+        var worksTitle = ['Skillset'];
+        var worksType = ['#Toolbox'];
+        // var worksTitle = ['3D Printed Ring','Voice Emoji',"Perfume Purchase","AR Pong","Sketch"];
+        // var worksType = ['3D Printing',"VOI","Ecommerce Research","AR","Drawings"];
         
         for (var i = 0; i < worksFake.length; i++) {
             var wt= worksTitle[i]
             var wtt=worksType[i]
-            items += '<div class="portfolio__item products"><div class="portfolio__item-content"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-mobile-image-link"><img src="img/portfolio-1-'+ worksFake[i] +'.png" class="portfolio__item-image" alt="custom alt 3"></a><div class="portfolio__item-image_hover" style="background-image: url(img/portfolio-1-'+ worksFake[i] +'-hover.png);"></div><div class="portfolio__item-overlay"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-image-link"></a><div class="portfolio__item-title"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-title-link">'+wt+'</a></div><div class="portfolio__item-cats"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-cat">'+ wtt +'</a><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-cat"></a></div></div></div></div>';
+             items += '<div class="portfolio__item products"><div class="portfolio__item-content"><a href="work.html" class="portfolio__item-mobile-image-link"><img src="img/portfolio-1-'+ worksFake[i] +'.png" class="portfolio__item-image" alt="custom alt 3"></a><div class="portfolio__item-image_hover" style="background-image: url(img/portfolio-1-'+ worksFake[i] +'.png);"></div><div class="portfolio__item-overlay"><a href="work.html" class="portfolio__item-image-link"></a><div class="portfolio__item-title"><a href="work.html" class="portfolio__item-title-link">3D Printed Ring</a></div><div class="portfolio__item-cats"><a href="#" class="portfolio__item-cat">Brands</a>,<a href="#" class="portfolio__item-cat">products</a></div></div></div></div>';
         }
 
-        // for (var i = 0; i < worksFake.length; i++) {
-        //     items += '<div class="portfolio__item products"><div class="portfolio__item-content"><a href="work.html" class="portfolio__item-mobile-image-link"><img src="img/portfolio-1-'+ worksFake[i] +'.jpg" class="portfolio__item-image" alt="custom alt 3"></a><div class="portfolio__item-image_hover" style="background-image: url(img/portfolio-1-'+ worksFake[i] +'-hover.jpg);"></div><div class="portfolio__item-overlay"><a href="work.html" class="portfolio__item-image-link"></a><div class="portfolio__item-title"><a href="work.html" class="portfolio__item-title-link">Poster</a></div><div class="portfolio__item-cats"><a href="#" class="portfolio__item-cat">Brands</a>,<a href="#" class="portfolio__item-cat">products</a></div></div></div></div>';
-        // }
+    // var filterActive = $('.filter__link_active').data('filter');
+    // if(!button.hasClass('no-works') && (filterActive === '*' || filterActive === '.products')) {
 
+    //     var worksFake = ['9', '4', '10', '11', '12', '13'];
+    //     var items = '<div>';
+    
+    //     for (var i = 0; i < worksFake.length; i++) {
+    //         items += '<div class="portfolio__item products"><div class="portfolio__item-content"><a href="work.html" class="portfolio__item-mobile-image-link"><img src="img/portfolio-1-'+ worksFake[i] +'.jpg" class="portfolio__item-image" alt="custom alt 3"></a><div class="portfolio__item-image_hover" style="background-image: url(img/portfolio-1-'+ worksFake[i] +'-hover.jpg);"></div><div class="portfolio__item-overlay"><a href="work.html" class="portfolio__item-image-link"></a><div class="portfolio__item-title"><a href="work.html" class="portfolio__item-title-link">3D Printed Ring</a></div><div class="portfolio__item-cats"><a href="#" class="portfolio__item-cat">Brands</a>,<a href="#" class="portfolio__item-cat">products</a></div></div></div></div>';
+    //     }
         items += '</div>';
     
         var g = $(items).find('.portfolio__item');
@@ -47,20 +56,20 @@ function fakeAjaxMasonry(button) {
         g.imagesLoaded(function() {
             $('#portfolio-masonry').append(g).isotope('appended', g).isotope('layout');
         });
-        button.addClass('no-works').html('Stay Tuned!');
+        button.addClass('no-works').html('Contact Me For More!');
     }  else {
-        button.html('Stay Tuned!');
+        button.html('Email: lunaatlgt@gmail.com 😊');
     }
 }
 
 function fakeAjaxSimple(button) {
     var filterActive = $('.filter__link.active').data('filter');
     if(!button.hasClass('no-works') && (filterActive === 'all' || filterActive === '.products')) {
-        var worksFake = ['7', '8', '9', '10', '11', '12'];
+        var worksFake = ['7', '8', '9', '10', '11'];
         var items = '<div>';
     
         for (var i = 0; i < worksFake.length; i++) {
-            items += '<div data-cat="products all" class="portfolio__item portfolio__item-height  all products"><div class="portfolio__item-content"><a href="work-'+ worksFake[i] +'.html" class="portfolio__item-mobile-image-link"><img src="img/portfolio-2-'+ worksFake[i] +'@2x.png" srcset="img/portfolio-2-'+ worksFake[i] +'@1x.png 1x, img/portfolio-2-'+ worksFake[i] +'@2x.png 2x" class="portfolio__item-image" alt="custom alt 3"></a><div class="portfolio__item-image_hover" style="background-image: -webkit-image-set( url(img/portfolio-2-'+ worksFake[i] +'-hover@1x.png) 1x, url(img/portfolio-2-'+ worksFake[i] +'-hover@2x.png) 2x); background-image: url(img/portfolio-2-'+ worksFake[i] +'-hover@2x.png);"></div><div class="portfolio__item-overlay"><a href="work.html" class="portfolio__item-image-link"></a><div class="portfolio__item-title"><a href="work.html" class="portfolio__item-title-link">Bard reed</a></div><div class="portfolio__item-cats"><a href="#" class="portfolio__item-cat">Brands</a>,<a href="#" class="portfolio__item-cat">products</a></div></div></div></div>'
+            items += '<div data-cat="products all" class="portfolio__item portfolio__item-height  all products"><div class="portfolio__item-content"><a href="work.html" class="portfolio__item-mobile-image-link"><img src="img/portfolio-2-'+ worksFake[i] +'@2x.png" srcset="img/portfolio-2-'+ worksFake[i] +'@1x.png 1x, img/portfolio-2-'+ worksFake[i] +'@2x.png 2x" class="portfolio__item-image" alt="custom alt 3"></a><div class="portfolio__item-image_hover" style="background-image: -webkit-image-set( url(img/portfolio-2-'+ worksFake[i] +'-hover@1x.png) 1x, url(img/portfolio-2-'+ worksFake[i] +'-hover@2x.png) 2x); background-image: url(img/portfolio-2-'+ worksFake[i] +'-hover@2x.png);"></div><div class="portfolio__item-overlay"><a href="work.html" class="portfolio__item-image-link"></a><div class="portfolio__item-title"><a href="work.html" class="portfolio__item-title-link">Bard reed</a></div><div class="portfolio__item-cats"><a href="#" class="portfolio__item-cat">Brands</a>,<a href="#" class="portfolio__item-cat">products</a></div></div></div></div>'
         }
         items += '</div>';
     
@@ -69,9 +78,9 @@ function fakeAjaxSimple(button) {
         g.imagesLoaded(function() {
             $('#portfolio-simple').mixItUp('insert', 5, g, {filter: 'all'})
         });
-        button.addClass('no-works').html('Stay Tuned!');
+        button.addClass('no-works').html('Contact Me For More!');
     }  else {
-        button.html('Stay Tuned!');
+        button.html('Email: lunaatlgt@gmail.com 😊');
     }
 }
 function DoFakeAjaxPostSide(){
@@ -86,7 +95,7 @@ function DoFakeAjaxPostSide(){
                     items +='<div class="blog-item blog-item--list"><div class="blog-item__preview-wrap blog-item__preview-wrap--list"><div class="blog-item__preview blog-item__preview--list" style="background-image: url(img/post-side-' + postsFake[i] + '@2x.jpg);"></div></div><div class="blog-item__info-wrap"><a href="post.html" class="blog-item__title">Designing a Portfolio Website with Oversized Typography</a><div class="blog-item__info blog-item__info--list"><span class="blog-item__info-date">August 28, 2018</span><span class="blog-item__info-cat"><a href="#" class="blog-item__info-cat-link">Design</a></span><span class="blog-item__info-author">By: <a href="#" class="blog-item__info-author-link">Larry Carroll</a></span><div class="blog-item__info-text-list"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum massa vel enim feugiat gravida. Phasellus velit risus, euismod a lacus et</p></div></div></div></div>';
                 }
                 jQuery(".blog-list").append(items);
-                jQuery(this).addClass('no-posts').html('Stay Tuned!');
+                jQuery(this).addClass('no-posts').html('No posts!');
             }
         });
     }
@@ -104,7 +113,7 @@ function DoFakeAjaxPostGrid(){
                     items += '<div class="blog-item blog-item--list blog-item--col-2"><div class="blog-item__preview" style="background-image: url(img/post-'+postsFake[i]+'@2x.jpg);"></div><a href="post.html" class="blog-item__title">The selfish reason why you should teach in your spare time</a><div class="blog-item__info"><span class="blog-item__info-circle"></span><span class="blog-item__info-text">5 min to read</span><span class="blog-item__info-arrow"></span></div></div>';
                 }
                 jQuery(".blog-column").append(items);
-                jQuery(this).addClass('no-posts').html('Stay Tuned!');
+                jQuery(this).addClass('no-posts').html('No posts!');
             }
         });
     }
@@ -211,19 +220,19 @@ function sidebarOpen(sidebarWrapperHolder, sidebarHolder) {
 /////////////////////////////////////////////
 // CLOSE SIDEBAR
 /////////////////////////////////////////////
-function sidebarClose(sidebarWrapperHolder, sidebarHolder) {
-    $('body').removeClass('sidebar-is-open');
-    // sidebarHolder.hide();
-    sidebarWrapperHolder.transition({
-        opacity: '0',
-        visibility: 'hidden',
-        duration: 100,
-        easing: 'linear'
-    });
-    sidebarHolder.transition({
-        x: '-1000px'
-    });
-}
+// function sidebarClose(sidebarWrapperHolder, sidebarHolder) {
+//     $('body').removeClass('sidebar-is-open');
+//     // sidebarHolder.hide();
+//     sidebarWrapperHolder.transition({
+//         opacity: '0',
+//         visibility: 'hidden',
+//         duration: 100,
+//         easing: 'linear'
+//     });
+//     sidebarHolder.transition({
+//         x: '-1000px'
+//     });
+// }
 
 /////////////////////////////////////////////
 // SIDEBAR ON MOBILE DEVICES
