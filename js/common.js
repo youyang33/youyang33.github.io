@@ -503,8 +503,8 @@ jQuery(document).ready( function() {
 	// PRELOADER
 	/////////////////////////////////////////////
     setTimeout(function() {
-        $('.do-site-preloader').fadeOut(500);
-    }, 1000);
+        $('.do-site-preloader').fadeOut(200);
+    }, 200);
 
     ///////////////////////////////////////////////
 	// WIDGET CATEGORY WHEN CLICK SET ACTIVE CLASS
