@@ -217,22 +217,22 @@ function sidebarOpen(sidebarWrapperHolder, sidebarHolder) {
     });
 }
 
-/////////////////////////////////////////////
+// ///////////////////////////////////////////
 // CLOSE SIDEBAR
-/////////////////////////////////////////////
-// function sidebarClose(sidebarWrapperHolder, sidebarHolder) {
-//     $('body').removeClass('sidebar-is-open');
-//     // sidebarHolder.hide();
-//     sidebarWrapperHolder.transition({
-//         opacity: '0',
-//         visibility: 'hidden',
-//         duration: 100,
-//         easing: 'linear'
-//     });
-//     sidebarHolder.transition({
-//         x: '-1000px'
-//     });
-// }
+// ///////////////////////////////////////////
+function sidebarClose(sidebarWrapperHolder, sidebarHolder) {
+    $('body').removeClass('sidebar-is-open');
+    // sidebarHolder.hide();
+    sidebarWrapperHolder.transition({
+        opacity: '0',
+        visibility: 'hidden',
+        duration: 100,
+        easing: 'linear'
+    });
+    sidebarHolder.transition({
+        x: '-1000px'
+    });
+}
 
 /////////////////////////////////////////////
 // SIDEBAR ON MOBILE DEVICES
