@@ -751,7 +751,7 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
   position: relative; }
 
 .portfolio__item-title {
-  bottom: 43px;
+  bottom: 62px;
   left: 0px;
   position: absolute;
   opacity: 0;
@@ -769,7 +769,7 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
 
 .portfolio__item-title-link {
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   font-family: "DoCabinBoldItalic", sans-serif;
   z-index: 4;
   position: relative; }
@@ -781,12 +781,12 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
 .portfolio__feature-item:hover .portfolio__item-title,
 .portfolio__item-content:hover .portfolio__item-title {
   opacity: 1;
-  left: 28px; }
+  left: 20px; }
 
 .portfolio__item-cats,
 .portfolio__item-cat {
   color: #fff;
-  font-size: 15px; }
+  font-size: 14px; }
 
 .portfolio__item-cat:hover {
   color: #fff;
@@ -794,7 +794,7 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
 
 .portfolio__item-cats {
   bottom: 21px;
-  left: 28px;
+  left:20px;
   position: absolute;
   z-index: 2;
   opacity: 0;
