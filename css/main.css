@@ -137,7 +137,8 @@ button {
   font-size: 15px;
   letter-spacing: -0.010em;
   border: none;
-  min-width: 140px;
+  min-width: 36px; 
+ /* used to be 140*/
   line-height: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
