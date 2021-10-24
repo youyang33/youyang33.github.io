@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /**
- *	Project: DO
- *	Version: 1.0.3
- *	Last change: 13.09.18
+ *  Project: DO
+ *  Version: 1.0.3
+ *  Last change: 13.09.18
  */
 /**
 [Table of contents]
@@ -11,20 +11,20 @@
         + Fonts / font-face
         + Vars
         + Style guide
-	    + Header / .header
-		+ Go to top / .go-top
-		+ Portfolio / .portfolio__item
+      + Header / .header
+    + Go to top / .go-top
+    + Portfolio / .portfolio__item
         + Blog list
         + Widget search / .widget-search
         + Widget cats / .widget-cat
-		+ Widget comments / .widget-comments
-		+ Widget posts / .widget-posts__preview
-		+ Single post / .single-post__content
-		+ Contact page / .contact-page
-		+ 404 page / .page-404
+    + Widget comments / .widget-comments
+    + Widget posts / .widget-posts__preview
+    + Single post / .single-post__content
+    + Contact page / .contact-page
+    + 404 page / .page-404
         + Preloader / .do-site-preloader
         + Media / media queries
-	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 */
 /*
 * Fonts
@@ -37,31 +37,26 @@
   font-weight: 400;
   font-style: "normal";
   src: url("../fonts/WorkSans/WorkSans-Regular.ttf") format("truetype"); }
-
 @font-face {
   font-family: "DoWorkSansMedium";
   font-weight: 400;
   font-style: "normal";
   src: url("../fonts/WorkSans/WorkSans-Medium.ttf") format("truetype"); }
-
 @font-face {
   font-family: "DoWorkSansLight";
   font-weight: 400;
   font-style: "normal";
   src: url("../fonts/WorkSans/WorkSans-Light.ttf") format("truetype"); }
-
 @font-face {
   font-family: "DoCabinBold";
   font-weight: 400;
   font-style: "normal";
   src: url("../fonts/Cabin/Cabin-Bold.ttf") format("truetype"); }
-
 @font-face {
   font-family: "DoCabinBoldItalic";
   font-weight: 400;
   font-style: "normal";
   src: url("../fonts/Cabin/Cabin-BoldItalic.ttf") format("truetype"); }
-
 @font-face {
   font-family: "DoCabinItalic";
   font-weight: 400;
@@ -198,14 +193,13 @@ button:hover,
 }
 
 h1, h2, h3, h4, h5, h6 {
-/*  font-family: "DoCabinBold", sans-serif;*/
-font-weight: 800
+
   color: #101217; }
 
 h1 {
     font-size: 48px;
 /*  font-size: 39px;*/
-    line-height: 60px;
+    line-height: 72px;
 /*  line-height: 44px;*/
 /*  margin-top: 56px;*/
 /*  margin-bottom: 21px;*/
@@ -265,7 +259,7 @@ h6 {
 p {
     font-size: 18px;
 /*  font-size: 17px;*/
-      line-height: 32px;
+      line-height: 34px;
 /*  line-height: 21px;*/
     margin-bottom: 28px;
 /*  margin-bottom: 20px;*/
@@ -1006,7 +1000,7 @@ position:relative;}
   height: 100%;
   background-color: #101217;
   will-change: transition;
-  transform-origin:  left;
+  transform-origin:  left;
   transform: scaleX(0);
   transition: transform 3s linear; }
 
