@@ -1,4 +1,4 @@
-var password = "fridayiscoming";
+var password = "hellothere";
 
 function passcheck() {
 
