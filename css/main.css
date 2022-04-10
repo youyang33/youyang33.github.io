@@ -2087,6 +2087,11 @@ path.map-marker {
   * Tablet styles
   **/
 @media only screen and (max-width: 991px) {
+
+body{
+  overflow-x: hidden; 
+}
+
   p {
     line-height: 22px; }
   .entry-title {
@@ -2262,6 +2267,11 @@ path.map-marker {
     margin-bottom: 16px; } }
 
 @media only screen and (max-width: 769px) {
+
+body{
+  overflow-x: hidden; 
+}
+
   .work-grid-image--col-2 {
     height: 345px; } }
 
@@ -2272,6 +2282,12 @@ path.map-marker {
   /*
     * Mobile general
     **/
+
+body{
+  overflow-x: hidden; 
+}
+
+
   p {
     line-height: 32px; }
   h1 {
@@ -2504,5 +2520,10 @@ path.map-marker {
 
 
 @media screen and (max-width: 640px) {
+body{
+  overflow-x: hidden; 
+}
+
+
   .lightcase-fullScreenMode #lightcase-info {
     padding-right: 46px; } }
