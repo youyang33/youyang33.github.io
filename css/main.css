@@ -1947,6 +1947,11 @@ path.map-marker {
 * Media
 */
 @media only screen and (max-width: 1280px) {
+
+  body{
+    overflow-x: hidden; 
+  }
+
   .go-top {
     right: 23px; }
   /*
@@ -1956,6 +1961,10 @@ path.map-marker {
     display: none; } }
 
 @media only screen and (max-width: 1199px) {
+
+  body{
+    overflow-x: hidden; 
+  }
 
 
   .logo {
