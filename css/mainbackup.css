@@ -47,22 +47,18 @@
 body {
   height: 100%;
   margin: 0;
-  overflow-x: hidden; 
+}
+
+
+
+body {
   position: relative;
   color: #101217;
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-width: 320px; 
-  padding: 0;
-}
 
-.main-container{
-  width: 100%;
-}
-
-.container{
-  width: 100%;
 }
 
 
@@ -75,6 +71,7 @@ button {
   letter-spacing: -0.010em;
   border: none;
   min-width: 36px; 
+ /* used to be 140*/
   line-height: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -139,52 +136,70 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 48px;
+/*  font-size: 39px;*/
     line-height: 72px;
+/*  line-height: 44px;*/
+/*  margin-top: 56px;*/
+/*  margin-bottom: 21px;*/
   margin-top: 64px;
   margin-bottom: 64px; }
 
 h2 {
-font-size: 42px;
-  line-height: 56px;
+    font-size: 42px;
+/*  font-size: 34px;*/
+      line-height: 56px;
+/*  line-height: 39px;*/
+/*  margin-top: 37px;
+  margin-bottom: 20px; */
   margin-top: 48px;
   margin-bottom: 48px; }
 
 h3 {
     font-size: 36px;
+/*  font-size: 29px;*/
+/*  line-height: 34px;*/
     line-height: 48px;
+/*  margin-top: 38px;
+  margin-bottom: 21px;*/ 
   margin-top: 48px;
   margin-bottom: 48px;}
 
 h4 {
-    font-size: 28pt;
+    font-size: 28px;
+/*  font-size: 24px;*/
     line-height: 42px;
+/*  line-height: 30px;*/
+/*  margin-top: 37px;
+  margin-bottom: 20px;*/
     margin-top: 42px;
   margin-bottom: 42px; }
 
 h5 {
       font-size: 24pt;
+/*  font-size: 21px;*/
     line-height: 36px;
+/*  line-height: 28px;*/
+/*  margin-top: 38px;
+  margin-bottom: 20px;*/
     margin-top: 42px;
   margin-bottom: 42px; }
 
 h6 {
     font-size: 16pt;
+/*  font-size: 19px;*/
     line-height: 30px;
-    margin-top: 16px;
-    margin-bottom: 16px; }
+/*  line-height: 24px;*/
+/*  margin-top: 40px;
+  margin-bottom: 21px;*/
+    margin-top: 8px;
+    margin-bottom: 8px; }
 
 p {
     font-size: 13pt;
       line-height: 30px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+/*  margin-bottom: 20px;*/
   color: #101217; }
-
-
-.widep {
-margin-top:24px;
-margin-bottom: 24px; }
-
 
 pre {
   overflow: auto;
@@ -351,7 +366,7 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
 
 .logo__img {
   width: 100%;
-  height: auto;}
+  height: auto; }
 
 .sidebar-toogle {
   display: none; }
@@ -473,17 +488,18 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
   border-top-color: #101217; }
 
 
-.sf-arrows > li > .sf-with-ul:focus:after, .sf-arrows > li:hover > .sf-with-ul:after, .sf-arrows > .sfHover > .sf-with-ul:after {
-  opacity: 0; }
 
-.sf-arrows > li > .sf-with-ul:focus:before, .sf-arrows > li:hover > .sf-with-ul:before, .sf-arrows > .sfHover > .sf-with-ul:before {
-  opacity: 1; }
+.coffee {
+  font-size: 32pt;
+  color: #101217;
+  display: inline-block;
+  position: relative; }
 
-.nav__link:not(.sf-with-ul):hover:after {
-  width: 100%; }
+.coffee :hover,
+.coffee :focus {
+  text-decoration: none;
+  color: #101217; }
 
-  .social_header {
-  margin-top: -2px; }
 
 
 .social__icon {
@@ -559,6 +575,12 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
 
 
 
+.passwordcontent{
+  margin: 20px auto;
+  background-color: rgba(247, 247, 247, 0.5);
+}
+
+
 #pass1{
 background-color: rgba(247, 247, 247, 0.5);
 }
@@ -584,8 +606,6 @@ background-color: rgba(247, 247, 247, 0.5);
   font-size: 11pt;
 }
 
-
-
 .centerp{
 text-align: center;
 }
@@ -599,65 +619,19 @@ text-align: center;
   padding-bottom:48px;
 }
 
-.userimgwithmark{
-  width: 100%;
-}
 .HRcontent{
   margin-top:48px;
   margin-bottom:64px;
 }
 
 .MainHeader{
-  margin-top: 32px; 
-  margin-bottom: 36px; 
-  font-weight: 800;
-}
-
-.MainHeader2{
   margin-top: 16px; 
   margin-bottom: 36px; 
   font-weight: 800;
 }
 
-.MainHeaderEx{
-    margin-top: 84px; 
-  margin-bottom: 84px; 
-  font-weight: 800;
-}
-
-.feedbackgroup{
-  margin-top: 36px;
-  margin-bottom: 56px;
-  width: 90%;
-}
-
-.feedbackimggroup{
-  margin-top: 36px;
-  margin-bottom: 160px;
-  width: 90%;
-}
-
-.feedbackimg{
-  margin-top: 36px;
-  margin-bottom: 56px;
-  width: 100%;
-
-}
-
-.bold{
-  font-weight: 800;
-}
-
-.italic{
-  font-style: italic;
-}
 .white{
   color: white;
-}
-
-.twocs{
-  padding-left: 16%;
-  padding-right: 16%;
 }
 
 .painpointcore{
@@ -679,48 +653,6 @@ text-align: center;
 .productimg{
   width: 100%; margin-bottom: 16px; margin-top: 32px;
 }
-
-
-
-.preventspacexs{
-  padding-left: 4%;
-  padding-right: 4%;
-}
-
-.condensedheader{
-  width: 60%;
-}
-
-#coffee{
- color: #101217;
- font-size: 28pt;
-}
-
-
-.footerp{
-  color:  #6D7278;
-  font-size: 9pt;
-  margin: 16px;
-}
-
-
-.homepagelayout {
-  margin-top: 16px;
-  margin-bottom: 16px;
-
-}
-
-.passwordcenter{
-  width: 50%; 
-  margin: auto; 
-  padding: auto;
-
-}
-
-.coffeemt{
-  margin-top: 120px;
-}
-
 /*
 * Portfolio
 **/
@@ -826,7 +758,7 @@ text-align: center;
 
 .portfolio__item-overlay {
   position: absolute;
-  background-color: rgba(43,66,170, 0.7);
+  background-color: rgba(var(--main-color-rgba), 0.7);
   top: 0;
   bottom: 0;
   left: 0;
@@ -860,9 +792,8 @@ text-align: center;
 
 .portfolio__item-title-link {
   color: #fff;
-  font-size: 16pt;
+  font-size: 20pt;
   font-family: 'Rubik', sans-serif;
-  font-weight: 800;
   z-index: 4;
   position: relative; }
 
@@ -948,9 +879,10 @@ text-align: center;
   text-align: center;
   color: #b0b4b9;
   background-color: white;
+  font-size: 14px;
   letter-spacing: -0.05em;
-  margin-bottom: 16px; 
-  margin-top: 16px;
+  margin-bottom: 0px; 
+  bottom: 0; 
   height: auto;
   position:relative;}
 
@@ -1787,6 +1719,8 @@ path.map-marker {
   font-size: 39px;
   margin-bottom: 49px; }
 
+.footer p {
+  color: inherit; }
 
 /*
 * Color palette
@@ -1956,8 +1890,6 @@ path.map-marker {
     display: none; } }
 
 @media only screen and (max-width: 1199px) {
-
-
   .logo {
     float: left; }
   .burger {
@@ -2249,8 +2181,7 @@ path.map-marker {
     * Tablet footer
     */
   .footer {
-    margin-top: 16px;
-    margin-bottom: 16px; } }
+    margin-bottom: 0px; } }
 
 @media only screen and (max-width: 769px) {
   .work-grid-image--col-2 {
@@ -2490,9 +2421,11 @@ path.map-marker {
     * Mobile footer
     **/
   .footer {
-    margin-top: 16px;
-    margin-bottom: 16px; }
-
+    margin-top: 73px;
+    margin-bottom: 0px; }
+  .footer p {
+    font-size: 14px;
+    margin-bottom: 0px; } }
 
 @media screen and (max-width: 640px) {
   .lightcase-fullScreenMode #lightcase-info {
