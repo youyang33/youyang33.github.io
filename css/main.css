@@ -581,7 +581,8 @@ background-color: rgba(247, 247, 247, 0.5);
 }
 
 .markp{
-  font-size: 11pt;
+  font-size: 10pt;
+  font-weight: 300;
 }
 
 
@@ -614,8 +615,9 @@ text-align: center;
 }
 
 .MainHeader2{
-  margin-top: 16px; 
-  margin-bottom: 36px; 
+  font-size:16pt;
+  margin-top: 8px; 
+  margin-bottom: 16px; 
   font-weight: 800;
 }
 
@@ -677,7 +679,7 @@ text-align: center;
 }
 
 .productimg{
-  width: 100%; margin-bottom: 16px; margin-top: 32px;
+  width: 100%; margin-bottom: 0px; margin-top: 0px;
 }
 
 
@@ -688,7 +690,7 @@ text-align: center;
 }
 
 .condensedheader{
-  width: 60%;
+  width: 78%;
 }
 
 #coffee{
@@ -886,7 +888,7 @@ text-align: center;
   text-decoration: none; }
 
 .portfolio__item-cats {
-  bottom: 21px;
+  bottom: 36px;
   left:20px;
   position: absolute;
   z-index: 2;
