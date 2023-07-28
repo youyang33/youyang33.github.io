@@ -139,9 +139,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 48px;
-    line-height: 72px;
-  margin-top: 64px;
-  margin-bottom: 64px; }
+    line-height: 62px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 h2 {
 font-size: 42px;
@@ -180,6 +180,10 @@ p {
     margin-bottom: 16px;
   color: #101217; }
 
+
+.regularlist{
+  font-size: 13pt;
+}
 
 .widep {
 margin-top:24px;
@@ -582,7 +586,7 @@ background-color: rgba(247, 247, 247, 0.5);
 
 .markp{
   font-size: 10pt;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 
@@ -615,8 +619,9 @@ text-align: center;
 }
 
 .MainHeader2{
-  font-size:16pt;
-  margin-top: 8px; 
+  font-size:20pt;
+  line-height: 28px;
+  margin-top: 16px; 
   margin-bottom: 16px; 
   font-weight: 800;
 }
@@ -692,6 +697,8 @@ text-align: center;
 .condensedheader{
   width: 78%;
 }
+
+
 
 #coffee{
  color: #101217;
