@@ -132,17 +132,17 @@ function DoFakeAjaxPostGrid(){
     }
     
 }
-var testing = "hellothere";
+var color = "hellothere";
 
-function passcheck() {
+function pcd() {
 
-if (document.getElementById('pass1').value != testing ){
+if (document.getElementById('pass1').value != color ){
     alert ('please try agian');
     return false;
     
 }
 
-if (document.getElementById('pass1').value == testing ){
+if (document.getElementById('pass1').value ==color ){
     return true
 }
 
