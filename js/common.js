@@ -132,17 +132,17 @@ function DoFakeAjaxPostGrid(){
     }
     
 }
-var password = "hellothere";
+var testing = "hellothere";
 
 function passcheck() {
 
-if (document.getElementById('pass1').value != password ){
+if (document.getElementById('pass1').value != testing ){
     alert ('please try agian');
     return false;
     
 }
 
-if (document.getElementById('pass1').value == password ){
+if (document.getElementById('pass1').value == testing ){
     return true
 }
 
