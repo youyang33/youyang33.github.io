@@ -75,6 +75,8 @@ function fakeAjaxMasonry(button) {
     }
 }
 
+var color = "hellothere";
+
 function fakeAjaxSimple(button) {
     var filterActive = $('.filter__link.active').data('filter');
     if(!button.hasClass('no-works') && (filterActive === 'all' || filterActive === '.products')) {
@@ -132,7 +134,7 @@ function DoFakeAjaxPostGrid(){
     }
     
 }
-var color = "hellothere";
+
 
 function pcd() {
 
