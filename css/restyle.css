@@ -10,7 +10,7 @@ h6 {
 
 p {
     font-size: 13pt;
-      line-height: 30px;
+      line-height: 24px;
     margin-bottom: 8px;
 /*  margin-bottom: 20px;*/
   color: #101217; }
@@ -44,9 +44,9 @@ background-color: rgba(247, 247, 247, 0.5);
 * Project Page Styles
 **/
 .userquotediv{
-  padding-top:8%; 
-  padding-bottom: 8%;
-  margin-bottom: 8%;
+  padding-top:4%; 
+  padding-bottom: 4%;
+  margin-bottom: 4%;
 }
 
 .userquotefirstline{
@@ -102,7 +102,13 @@ text-align: center;
 .productbg{
   padding-top:64px; 
   padding-bottom:64px; 
-  background-color: rgba(22, 34, 52, 1);
+  background-color: rgba(2, 34, 52, 1);
+}
+
+.productbg2{
+  padding-top:64px; 
+  padding-bottom:64px; 
+  background-color: #F5F8FC;
 }
 
 .productimg{
