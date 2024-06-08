@@ -683,6 +683,12 @@ text-align: center;
   background-color: rgba(22, 34, 52, 1);
 }
 
+.productbg2{
+  padding-top:64px; 
+  padding-bottom:64px; 
+  background-color: #F6F5F3;
+}
+
 .productimg{
   width: 100%; margin-bottom: 0px; margin-top: 0px;
 }
