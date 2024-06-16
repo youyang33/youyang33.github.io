@@ -668,8 +668,8 @@ text-align: center;
 }
 
 .painpointcore{
-  padding-top:64px; 
-  padding-bottom:64px; 
+  padding-top:12px; 
+  padding-bottom:12px; 
   background-color: rgba(247, 247, 247, 0.5); 
 }
 
@@ -678,8 +678,8 @@ text-align: center;
 }
 
 .productbg{
-  padding-top:64px; 
-  padding-bottom:64px; 
+  padding-top:24px; 
+  padding-bottom:24px; 
   background-color: rgba(22, 34, 52, 1);
 }
 
