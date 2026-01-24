@@ -175,9 +175,7 @@ h6 {
 
 p {
     font-size: 13pt;
-      line-height: 30px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+      line-height: 24px;
   color: #101217; }
 
 
@@ -576,6 +574,11 @@ background-color: rgba(247, 247, 247, 0.5);
   margin-bottom: 8%;
 }
 
+.newtopsection{
+  padding-top:4%; 
+  padding-bottom: 4%;
+}
+
 .userquotefirstline{
   margin-bottom: 48px; 
   font-weight: 800; 
@@ -696,8 +699,8 @@ text-align: center;
 
 
 .preventspacexs{
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .condensedheader{
