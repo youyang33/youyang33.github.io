@@ -549,7 +549,27 @@ a[class*='lightcase-icon-'].lightcase-icon-close:hover {
   backface-visibility: hidden;
   will-change: transform; }
 
+.go-top__arrow1 {
+  width: 9px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  background-image: url(../img/arrow-top1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  transform: translateY(0) rotate(0deg);
+  transition-duration: .2s;
+  transition-timing-function: ease;
+  transition-property: transform;
+  backface-visibility: hidden;
+  will-change: transform; }
+
 .go-top:hover .go-top__arrow {
+  transform: translateY(-10px) rotate(0deg); }
+
+  .go-top:hover .go-top__arrow1 {
   transform: translateY(-10px) rotate(0deg); }
 
 .go-top__text {
